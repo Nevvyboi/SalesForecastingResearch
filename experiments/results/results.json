@@ -1,0 +1,21 @@
+{
+  "SeasonalNaive": {
+    "rmsle": 1.0367719932238537,
+    "mae": 0.4686180958739922,
+    "n_samples": 153188,
+    "training_time": 0
+  },
+  "LightGBM": {
+    "rmsle": 1.9148622629833838,
+    "mae": 1.4886215222395625,
+    "n_samples": 91518,
+    "training_time": 10.800270318984985
+  },
+  "LSTM": {
+    "rmsle": 0.7102281451225281,
+    "mae": 0.3736501634120941,
+    "n_samples": 91021,
+    "training_time": 1863.5797147750854,
+    "best": true
+  }
+}
